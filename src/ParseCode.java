@@ -14,7 +14,6 @@ public class ParseCode {
         	compiler.commands.cls cls = new compiler.commands.cls();
         	cls.Execute(command);
         	break;
-        }
         case "println":
         	compiler.commands.println prntln = new compiler.commands.println();
         	prntln.Execute(command);
